@@ -3,6 +3,6 @@ using namespace std;
 
 int main() {
    
-   cout <<"Welcome to world of programming"<<endl;
+   cout <<"Welcome to world of programminggit"<<endl;
    cout<<"Namaste Duniya!:-"<<endl; 
 }
