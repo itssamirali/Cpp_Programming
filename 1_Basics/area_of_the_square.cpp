@@ -1,4 +1,5 @@
 #include <iostream>
+#include<conio.h>
 using namespace std;
 
 int main() {
@@ -9,5 +10,6 @@ int main() {
     cin>>length;
     area = length*length;
     cout <<"The area of the square is "<<area<<endl;
+    getch();
 }
 
