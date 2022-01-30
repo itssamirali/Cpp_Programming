@@ -13,6 +13,10 @@ int main() {
              cout <<a;
 
         }
+        else{
+
+            cout<<c;
+        }
        
     }
     else if(b>c){
