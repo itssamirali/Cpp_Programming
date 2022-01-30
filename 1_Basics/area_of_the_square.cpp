@@ -3,8 +3,7 @@ using namespace std;
 
 int main() {
 
-    int length;
-    int area;
+    int length, area;
 
     cout <<"Enter the length of the square"<<endl;
     cin>>length;
