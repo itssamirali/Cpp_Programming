@@ -31,4 +31,11 @@ int main()
     D1.breed = "No Breed";
     D1.color = "White&Black";
     D1.displayDetails();
+
+    Dog D2;
+    D2.age = 3;
+    D2.name = "Coco";
+    D2.breed = "Pameliun";
+    D2.color = "White";
+    D2.displayDetails();
 }
