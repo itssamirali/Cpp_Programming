@@ -10,12 +10,20 @@ public:
     string breed;
     string name;
 
+    Dog(); // constructor declaration
+
     void displayDetails(); // function declaration
 };
 
-void Dog::displayDetails()
-{ // function defination
+Dog ::Dog()
+{ // explicit constructor defination
 
+    cout << "Dog Deatils Created" << endl;
+}
+
+void Dog::displayDetails() // function defination
+
+{
     cout << "Name : " << name << endl
          << "age : " << age << endl
          << "Color : " << color << endl
