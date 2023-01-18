@@ -11,7 +11,7 @@ public:
     string color;
     string petName;
 
-    Dog()
+    Dog() // emplicit constructir (Deafault cons)
     {
         cout << "Dog Object Created" << endl;
     }

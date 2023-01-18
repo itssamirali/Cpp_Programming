@@ -1,28 +1,17 @@
 #include <iostream>
-#include <string>
+#include <String.h>
 using namespace std;
 
 int main()
 {
-
-    string name;
-    char dollar;
-    float gdp;
+    string country;
+    char currency;
+    float dollar;
     int year;
 
-    cout << "Enter the name of country : \n";
-    getline(cin, name);
-
-    cout << "Enter the dollar : \n";
-    cin >> dollar;
-
-    cout << "Enter the gdp : \n";
-    cin >> gdp;
-
-    cout << "Enter the year : \n";
-    cin >> year;
-
-    cout << "As economic reforms picked up the pace, " << name << "'s GDP grew five-fold to reach US" << dollar << gdp << " trillion in " << year << " (as per IMF estimates).";
-
-    return 0;
+    cin>>country;
+    cin>>currency;
+    cin>>dollar;
+    cin>>year;
+    cout <<"As economic reforms picked up the pace," << country <<" GDP grew five-fold to reach US\n"<<currency<<dollar <<" trillion in "<< year <<" as per IMF estimates";
 }
